@@ -1,18 +1,12 @@
-first=(int(input()))
-second=(int(input()))
-third=(int(input()))
+first = input('Первое число: ')
+second = input('Второе число: ')
+third = input('Третье число: ')
 
-a=first
-b=second
-c=third
-
-if a==b==c:
+if first == second == third:
     print(3)
-elif a==b!=c:
+elif first == second or first == third or second == third:
     print(2)
-elif a!=b!=c:
+elif first != second != third:
     print(0)
-
-
 
 
